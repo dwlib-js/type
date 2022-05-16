@@ -117,7 +117,7 @@ const ToUint8Clamp = require('@dwlib/type/ToUint8Clamp');
 const ToUint16 = require('@dwlib/type/ToUint16');
 const ToUint32 = require('@dwlib/type/ToUint32');
 const TypeOf = require('@dwlib/type/TypeOf');
-const TypeTag = require('@dwlib/type/TypeTag');
+const TypeTagOf = require('@dwlib/type/TypeTagOf');
 // ESM
 import Type, {
   IsAggregateError,
@@ -226,7 +226,7 @@ import Type, {
   ToUint16,
   ToUint32,
   TypeOf,
-  TypeTag
+  TypeTagOf
 } from '@dwlib/type';
 import IsAggregateError from '@dwlib/type/IsAggregateError';
 import IsArray from '@dwlib/type/IsArray';
@@ -334,7 +334,7 @@ import ToUint8Clamp from '@dwlib/type/ToUint8Clamp';
 import ToUint16 from '@dwlib/type/ToUint16';
 import ToUint32 from '@dwlib/type/ToUint32';
 import TypeOf from '@dwlib/type/TypeOf';
-import TypeTag from '@dwlib/type/TypeTag';
+import TypeTagOf from '@dwlib/type/TypeTagOf';
 ```
 
 ## API
@@ -421,7 +421,7 @@ import TypeTag from '@dwlib/type/TypeTag';
   - *static* isWeakRef(argument)
   - *static* isWeakSet(argument)
   - *static* of(argument)
-  - *static* tag(argument)
+  - *static* tagOf(argument)
   - *static* toBigInt(argument)
   - *static* toBigInt64(argument)
   - *static* toBigUint64(argument)
@@ -554,4 +554,4 @@ import TypeTag from '@dwlib/type/TypeTag';
 - ToUint16(argument)
 - ToUint32(argument)
 - TypeOf(argument)
-- TypeTag(argument)
+- TypeTagOf(argument)
